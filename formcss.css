@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <style>
+select{
+    border: 2px solid black;
+    width: 100px;
+}
+  input[type=text],select{
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px double red;
+
+  }
+  input[type=button]{
+    width: 30%;
+    background-color: green;
+    float: right;
+    padding: 10px;
+    margin: 30px;
+    border: 5px dotted gray;
+  }
+   fieldset{
+    background-color: yellow;
+   }  
+   textarea{
+    width: 100%;
+   }
+  
+  
+
+
+    </style>
+    <head>
+        
+        <body style="background-color: rgb(0, 255, 225);">
+            <h2 style="background-color: red;">The following details to be filled</h2>
+            <div>
+            <form> <fieldset>
+                <label for="first name">first name</label>
+                <input type="text" placeholder="first name"><br><br>
+                <label for="sur name">last name</label> 
+                <input type="text" placeholder="last name"><br><br>
+                <label for="country">country name</label>
+                <select id="country"name="country"><br>
+                <option value="india">india</option><br>
+                <option value="australia">australia</option>
+                <option value="europe">europe</option><br>
+                <option value="london">london</option><br><br>
+                 </select><br><br>
+                 <label for="subject">subject</label><br>
+
+                 <textarea id="subject" name="subject" placeholder="write something...." style="height: 100px;" width="100px"></textarea>
+                 <br><br>
+                 <input type="button" value="submit">
+                 <input type="button" value="reset">
+                 </fieldset>
+
+             </form>
+            </div>
+
+        </body>
+    </head>
+</html>
