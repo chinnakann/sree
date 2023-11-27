@@ -1,0 +1,23 @@
+Print a part of a string Without predefined method slice(with indexes as both positive and negative)
+function hi(a,b){
+    var str="ram charan";
+    for(i=a;i<b;i++){
+        console.log(str[i]);
+    }
+    
+}
+hi(2,9);
+
+//negative 
+var h="jaisriram";
+function name(a,b){
+    for(i=h.length+a;i<h.length+b;i++){
+        console.log(h[i])
+    }
+}
+name(-4,-1);
+//trim task
+var s="    ramu    ";
+console.log(s.length)
+console.log(s.trim(""));
+console.log(s.trim().length)
